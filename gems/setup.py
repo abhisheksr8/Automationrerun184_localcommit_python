@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 packages_to_include = find_packages(exclude = ['test.*', 'test', 'test_manual'])
 setup(
     name = 'abhishekse2etestsprophecyioteam_projectautomationrerun184pythonreleaseapi1776906958220',
-    version = '0.0.1',
+    version = '18417769069582201.0.0',
     packages = packages_to_include,
     description = '',
     install_requires = [],
