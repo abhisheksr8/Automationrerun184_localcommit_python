@@ -1,0 +1,89 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "3",
+    "jobId" : "jobs/Project-Automationrerun184_python_RELEASE_API_1776906958220_RELEASE_API_JOB",
+    "name" : "Project-Automationrerun184_python_RELEASE_API_1776906958220_RELEASE_API_JOB",
+    "schedule" : "0/1 * * ? * * 2090",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "small",
+    "alerting" : {
+      "emails" : "abhisheks+e2etests@prophecy.io",
+      "onStart" : true,
+      "onSuccess" : true,
+      "onFailure" : true,
+      "onDurationWarningThresholdExceeded" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false,
+        "onDurationWarningThresholdExceeded" : false
+      },
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false,
+      "onDurationWarningThresholdExceeded" : false
+    }
+  },
+  "processes" : {
+    "nWY6Jqu0TqAbxz8ozdnYk" : {
+      "id" : "nWY6Jqu0TqAbxz8ozdnYk",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "Pipeline-Automationrerun184_RELEASE_API_1776906958220",
+        "slug" : "Pipeline-Automationrerun184_RELEASE_API_1776906958220",
+        "x" : 100,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "in",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "out",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false,
+          "onDurationWarningThresholdExceeded" : false
+        },
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false,
+        "onDurationWarningThresholdExceeded" : false
+      },
+      "properties" : {
+        "pipelineId" : "pipelines/Pipeline-Automationrerun184_RELEASE_API_1776906958220",
+        "configurations" : {
+          "selectedInstance" : "default",
+          "instances" : {
+            "Project-Automationrerun184_python_RELEASE_API_1776906958220" : [ "default" ]
+          },
+          "overrides" : { },
+          "schema" : [ ]
+        }
+      },
+      "conditional" : null,
+      "parent" : null
+    }
+  },
+  "connections" : [ ]
+}
